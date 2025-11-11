@@ -257,25 +257,25 @@
             <mxPoint x="99.5" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="1450" width="390" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-2" value="RAW Data&lt;div&gt;Defaults Only&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-2" value="RAW Data&lt;div&gt;Defaults Only&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="1470" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-7" value="Unique Defaults" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-7" value="Unique Defaults" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="1600" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1520" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-4" value="Qaurter 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-4" value="Qaurter 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1510" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-5" value="Qaurter 2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-5" value="Qaurter 2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-9" value="1)Delete Duplicates per quarter&lt;div&gt;2) Sort By Account and Date and OutSum&lt;/div&gt;&lt;div&gt;3)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.04;" vertex="1" parent="1">
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-9" value="1)Delete Duplicates per quarter&lt;div&gt;2) Sort By Account and Date and OutSum&lt;/div&gt;&lt;div&gt;3) Stack quarters to create unique date-id pairs&lt;/div&gt;&lt;div&gt;4) Summary of the file/description&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.04;" parent="1" vertex="1">
           <mxGeometry x="230" y="1480" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
