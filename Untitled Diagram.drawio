@@ -1,0 +1,284 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.9">
+  <diagram name="Page-1" id="3uEzCAh1yn7Q3d8eO7wl">
+    <mxGraphModel dx="778" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-1" value="CCDP Detailed&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="270" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-11" value="Quaterly Excel Files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UTKVyHUj-5DN4I4TRJFO-1" vertex="1">
+          <mxGeometry x="25" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-12" value="1.Data Cleaning( Duplicated Rows/Wrong Dates etc.)&lt;div&gt;2. Data Transformation&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Unique Accounts per quarter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. Combine to Master file&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-1" vertex="1">
+          <mxGeometry x="20" y="80" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-13" value="Account Master File- 40 Quarters (FYQ1 2015- FYQ4 2024)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-1" vertex="1">
+          <mxGeometry y="220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=-0.027;entryDx=0;entryDy=0;exitX=0.306;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="UTKVyHUj-5DN4I4TRJFO-1" source="UTKVyHUj-5DN4I4TRJFO-12" target="UTKVyHUj-5DN4I4TRJFO-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="160" as="sourcePoint" />
+            <mxPoint x="99.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="UTKVyHUj-5DN4I4TRJFO-1" target="UTKVyHUj-5DN4I4TRJFO-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="50" as="sourcePoint" />
+            <mxPoint x="99.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-2" value="CCDP" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-3" value="LLMS" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="580" />
+              <mxPoint x="661" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-4" value="MIHV" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="600" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-5" value="Data Sources" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-5" target="UTKVyHUj-5DN4I4TRJFO-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="100.00000000000001" as="sourcePoint" />
+            <mxPoint x="150" y="101.33" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="101" />
+              <mxPoint x="320" y="101" />
+              <mxPoint x="160" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="70" as="sourcePoint" />
+            <mxPoint x="640" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="101" />
+              <mxPoint x="480" y="101" />
+              <mxPoint x="640" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-2" target="UTKVyHUj-5DN4I4TRJFO-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="240" />
+              <mxPoint x="270" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="530" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="240" />
+              <mxPoint x="530" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-37" value="Resolving multiple Customer IDs linked to single Account ID" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="570" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-13" target="UTKVyHUj-5DN4I4TRJFO-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="540" as="sourcePoint" />
+            <mxPoint x="260" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-41" value="CCDP Detailed Account Master" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="650" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-42" value="Account Master File" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UTKVyHUj-5DN4I4TRJFO-41" vertex="1">
+          <mxGeometry x="25" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-43" value="Aggregation from Account to Customer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-41" vertex="1">
+          <mxGeometry x="20" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-44" value="Customer Master File- 40 Quarters (FYQ1 2015- FYQ4 2024)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-41" vertex="1">
+          <mxGeometry y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=-0.027;entryDx=0;entryDy=0;exitX=0.306;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="UTKVyHUj-5DN4I4TRJFO-41" source="UTKVyHUj-5DN4I4TRJFO-43" target="UTKVyHUj-5DN4I4TRJFO-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="160" as="sourcePoint" />
+            <mxPoint x="99.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="UTKVyHUj-5DN4I4TRJFO-41" target="UTKVyHUj-5DN4I4TRJFO-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="50" as="sourcePoint" />
+            <mxPoint x="99.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="620" as="sourcePoint" />
+            <mxPoint x="269.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-48" value="Identifying Missing Quarters for Customers" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="UTKVyHUj-5DN4I4TRJFO-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="880" as="sourcePoint" />
+            <mxPoint x="260" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="960" as="sourcePoint" />
+            <mxPoint x="269.5" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="1050" as="sourcePoint" />
+            <mxPoint x="269.5" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-62" value="Customer Master File" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-3" target="UTKVyHUj-5DN4I4TRJFO-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="640" as="sourcePoint" />
+            <mxPoint x="140" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-68" target="UTKVyHUj-5DN4I4TRJFO-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-68" value="Enriching Missing Quarter Data" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="910" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="UTKVyHUj-5DN4I4TRJFO-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="900" as="targetPoint" />
+            <mxPoint x="440" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-73" target="UTKVyHUj-5DN4I4TRJFO-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="UTKVyHUj-5DN4I4TRJFO-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1272.666748046875" as="targetPoint" />
+            <mxPoint x="660" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-73" value="Enriching Missing Quarter Data" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="960" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-75" value="CCDP Detailed Master File" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1090" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-76" value="Customer Master File&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UTKVyHUj-5DN4I4TRJFO-75" vertex="1">
+          <mxGeometry x="20" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-77" value="&lt;div&gt;&amp;nbsp;Adding Rating data-&lt;/div&gt;&lt;div&gt;1) LLMS (Rating Prior to &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Reporting date)&lt;/div&gt;&lt;div&gt;2) CCDP Detailed (Ratings on &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Reporting date)&lt;/div&gt;&lt;div&gt;3) MIHV&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="UTKVyHUj-5DN4I4TRJFO-75" vertex="1">
+          <mxGeometry x="20" y="70" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-78" value="Customer Master File- 40 Quarters (FYQ1 2015- FYQ4 2024)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-75" vertex="1">
+          <mxGeometry y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=-0.027;entryDx=0;entryDy=0;exitX=0.306;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="UTKVyHUj-5DN4I4TRJFO-75" source="UTKVyHUj-5DN4I4TRJFO-77" target="UTKVyHUj-5DN4I4TRJFO-78" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="160" as="sourcePoint" />
+            <mxPoint x="99.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="UTKVyHUj-5DN4I4TRJFO-75" target="UTKVyHUj-5DN4I4TRJFO-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="50" as="sourcePoint" />
+            <mxPoint x="99.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-85" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Data Used for TTC PD Computation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1360" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="UTKVyHUj-5DN4I4TRJFO-78" target="UTKVyHUj-5DN4I4TRJFO-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-92" value="CCDP Detailed&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="270" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-93" value="Quaterly Excel Files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UTKVyHUj-5DN4I4TRJFO-92" vertex="1">
+          <mxGeometry x="25" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-94" value="1.Data Cleaning( Duplicated Rows/Wrong Dates etc.)&lt;div&gt;2. Data Transformation&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Unique Accounts per quarter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. Combine to Master file&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-92" vertex="1">
+          <mxGeometry x="20" y="80" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-95" value="Account Master File- 40 Quarters (FYQ1 2015- FYQ4 2024)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UTKVyHUj-5DN4I4TRJFO-92" vertex="1">
+          <mxGeometry y="220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=-0.027;entryDx=0;entryDy=0;exitX=0.306;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="UTKVyHUj-5DN4I4TRJFO-92" source="UTKVyHUj-5DN4I4TRJFO-94" target="UTKVyHUj-5DN4I4TRJFO-95" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="160" as="sourcePoint" />
+            <mxPoint x="99.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTKVyHUj-5DN4I4TRJFO-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="UTKVyHUj-5DN4I4TRJFO-92" target="UTKVyHUj-5DN4I4TRJFO-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="50" as="sourcePoint" />
+            <mxPoint x="99.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1450" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-2" value="RAW Data&lt;div&gt;Defaults Only&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-7" value="Unique Defaults" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-4" value="Qaurter 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-5" value="Qaurter 2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hY8WsTGyVSIBbe-DO6Uw-9" value="1)Delete Duplicates per quarter&lt;div&gt;2) Sort By Account and Date and OutSum&lt;/div&gt;&lt;div&gt;3)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.04;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1480" width="250" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
